@@ -34,3 +34,12 @@ header input{
 #titree{
 	width:50%;
 }
+
+footer{
+	border-top:2px solid black;
+}
+
+footer p{
+	float:right;
+	font-size:0.8vw;
+}
