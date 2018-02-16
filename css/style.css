@@ -34,18 +34,20 @@ header input{
 	width:50%;
 }
 
-iframe{
+#maps{
 	display:inline-block;
 	width:50%;
+	border-right: 1px solid black;
 }
 
 form{
-display:inline-block;
-	width:50%;
+	
+	vertical-align:top;
+	display:inline-block;
+	width:49%;
 }
 
 form ul{
-	margin:0;
 	list-style:none;
 	display:inline-block;
 	width:40%;
@@ -58,15 +60,21 @@ form .nomVille{
 form .suite{
 	width:80%;
 	margin-left:10%;
+	margin-bottom:2%;
 }
 form #commentaire{
 	height:50px;
 }
 
 form #submit{
-	margin-left:25%;
-	width:50%;
+	margin-left:67%;
+	width:25%;
 }
+
+h2{
+	text-align:center;
+}
+
 footer{
 	border-top:2px solid black;
 }
@@ -74,4 +82,38 @@ footer{
 footer p{
 	float:right;
 	font-size:0.8vw;
+}
+
+@media screen and (max-width: 600px){
+	#corps li{
+		width:100%;
+	}
+	
+	form{
+		width:90%;
+		display:block;
+	}
+	#maps{
+		width:100%;
+		display:block;
+		border-right:none;
+		border-bottom:2px solid black;
+	}
+	
+	#logo{
+	width:50%;
+	margin-left:25%;
+	}
+	form ul{
+	list-style:none;
+	display:block;
+	width:40%;
+	}
+	footer p{
+	font-size:3vw;
+}
+form .nomVille{
+	float:none;
+}
+
 }
