@@ -33,19 +33,10 @@ header input{
 #titree{
 	width:50%;
 }
-
-iframe{
-	display:inline-block;
-	width:50%;
-}
-
 form{
-display:inline-block;
 	width:50%;
 }
-
 form ul{
-	margin:0;
 	list-style:none;
 	display:inline-block;
 	width:40%;
@@ -55,18 +46,11 @@ form .nomVille{
 	float:right;
 }
 
-form .suite{
-	width:80%;
-	margin-left:10%;
-}
-form #commentaire{
-	height:50px;
+form .mail{
+	width:90%;
+	margin:auto;
 }
 
-form #submit{
-	margin-left:25%;
-	width:50%;
-}
 footer{
 	border-top:2px solid black;
 }
