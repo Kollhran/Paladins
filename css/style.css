@@ -86,15 +86,13 @@ form{
 form ul{
 	list-style:none;
 	display:inline-block;
-	width:40%;
+	width:49%;
 	padding:0;
-	text-align:center;
 }
-
-form .nomVille{
-	float:right;
+#liste{
+	width:80%;
+	margin:auto;
 }
-
 form .suite{
 	width:80%;
 	margin-left:10%;
