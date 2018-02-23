@@ -149,6 +149,10 @@ footer p{
 	form ul input{
 		width:100%;
 	}
+	
+	form .suite{
+		width:80%;
+	}
 	form .nomVille{
 	float:none;
 	}
