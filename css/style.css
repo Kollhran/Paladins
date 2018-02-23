@@ -37,11 +37,11 @@ header input{
 #maps{
 	display:inline-block;
 	width:50%;
-	border-right: 1px solid black;
+	
 }
 
 form{
-	
+	border-left: 1px solid black;
 	vertical-align:top;
 	display:inline-block;
 	width:49%;
@@ -70,7 +70,6 @@ form #submit{
 	margin-left:67%;
 	width:25%;
 }
-
 h2{
 	text-align:center;
 }
@@ -83,8 +82,27 @@ footer p{
 	float:right;
 	font-size:0.8vw;
 }
-
-@media screen and (max-width: 600px){
+/*MEDIA QUERIES POUR LES TABLETTES*/
+@media screen and (max-width: 1024px){
+	#corps li{
+		width:50%;
+	}
+	#logo{
+		width:50%;
+		margin-left:25%;
+	}
+	form ul{
+	list-style:none;
+	display:block;
+	margin-left:-8%;
+	width:40%;
+	}
+	form .nomVille{
+	float:none;
+	}
+}
+/*MEDIA QUERIES POUR LES SMARTPHONES*/
+@media screen and (max-width: 450px){
 	#corps li{
 		width:100%;
 	}
@@ -92,6 +110,8 @@ footer p{
 	form{
 		width:90%;
 		display:block;
+		border-left:none;
+		margin:auto;
 	}
 	#maps{
 		width:100%;
@@ -105,13 +125,17 @@ footer p{
 	margin-left:25%;
 	}
 	form ul{
+	margin-left:10%;
 	list-style:none;
 	display:block;
-	width:40%;
+	width:100%;
 	}
 	footer p{
 	font-size:3vw;
 }
+form ul li input{
+	width:50%;
+	}
 form .nomVille{
 	float:none;
 }
