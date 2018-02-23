@@ -103,6 +103,9 @@ footer p{
 }
 /*MEDIA QUERIES POUR LES SMARTPHONES*/
 @media screen and (max-width: 450px){
+	html{
+		width:100%;
+	}
 	#corps li{
 		width:100%;
 	}
@@ -113,6 +116,7 @@ footer p{
 		border-left:none;
 		margin:auto;
 	}
+
 	#maps{
 		width:100%;
 		display:block;
@@ -125,16 +129,17 @@ footer p{
 	margin-left:25%;
 	}
 	form ul{
-	margin-left:10%;
 	list-style:none;
 	display:block;
-	width:100%;
+	width:70%;
+	padding:0;
+	margin:auto;
 	}
 	footer p{
 	font-size:3vw;
 }
 form ul li input{
-	width:50%;
+	width:100%;
 	}
 form .nomVille{
 	float:none;
