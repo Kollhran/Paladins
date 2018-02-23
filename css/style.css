@@ -13,6 +13,9 @@
 	display:inline-block;
 	border-left: 1px solid black;
 }
+#menu{
+	display:none;
+}
 header{
 	border-bottom:2px solid black;
 }
@@ -158,7 +161,9 @@ footer p{
 		border-left:none;
 		margin:auto;
 	}
-
+	#corps li a{
+		font-size:7vw;
+	}
 	#maps{
 		width:100%;
 		display:block;
@@ -177,7 +182,7 @@ footer p{
 	padding:0;
 	margin:auto;
 	}
-	footer p{
+footer p{
 	font-size:3vw;
 }
 form ul li input{
@@ -187,4 +192,14 @@ form .nomVille{
 	float:none;
 }
 
+#header{
+	display:none;
+}
+article h1{
+	font-size:6.5vw;
+}
+
+#menu{
+	display:inline-block;
+}
 }
