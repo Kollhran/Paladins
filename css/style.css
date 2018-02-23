@@ -16,10 +16,25 @@
 header{
 	border-bottom:2px solid black;
 }
-header input{
-	margin-top:1%;
-	margin-left:1%;
-	float:right;
+
+header #droite{
+	border-left:none;
+}
+header li a{
+	font-size:1.5vw;
+	padding:4px;
+	color:green;
+	text-decoration:none;
+	transition-property:color;
+	transition-duration:1s;
+}
+
+header li a:hover{
+	color:#2aee30;
+}
+
+header #gauche{
+	border-left:none;
 }
 #corps li{
 	display:inline-block;
@@ -30,9 +45,30 @@ header input{
 	padding:0px;
 }
 
+article h1{
+	font-size:3.5vw;
+}
+
+#corps li a{
+	color:black;
+	font-size:2vw;
+	display:block;
+}
+
+#corps li p{
+	width:50%;
+	margin:auto;
+}
+
+#corps li a:hover{
+	color:#082bc6;
+}
+
 #titree{
 	width:50%;
 }
+
+
 
 #maps{
 	display:inline-block;
@@ -51,6 +87,8 @@ form ul{
 	list-style:none;
 	display:inline-block;
 	width:40%;
+	padding:0;
+	text-align:center;
 }
 
 form .nomVille{
@@ -84,6 +122,12 @@ footer p{
 }
 /*MEDIA QUERIES POUR LES TABLETTES*/
 @media screen and (max-width: 1024px){
+	#header{
+		float:none;
+		padding:0;
+		text-align:center;
+		display:block;
+	}
 	#corps li{
 		width:50%;
 	}
@@ -94,8 +138,8 @@ footer p{
 	form ul{
 	list-style:none;
 	display:block;
-	margin-left:-8%;
-	width:40%;
+	margin:auto;
+	width:100%;
 	}
 	form .nomVille{
 	float:none;
