@@ -88,9 +88,14 @@ form{
 form ul{
 	list-style:none;
 	display:inline-block;
-	width:49%;
+	width:40%;
 	padding:0;
 }
+
+form ul input{
+	width:95%;
+}
+
 #liste{
 	width:80%;
 	margin:auto;
@@ -141,6 +146,9 @@ footer p{
 	margin:auto;
 	width:100%;
 	}
+	form ul input{
+		width:100%;
+	}
 	form .nomVille{
 	float:none;
 	}
@@ -178,7 +186,7 @@ footer p{
 	form ul{
 	list-style:none;
 	display:block;
-	width:70%;
+	width:100%;
 	padding:0;
 	margin:auto;
 	}
