@@ -203,14 +203,15 @@ article h1{
 #menu{
 	display:block;
 	position:absolute;
-	top:5%;
+	top:4%;
 	left:1%;
+	width:15%;
 }
 #phone{
 	display:block;
 	position:absolute;
-	top:5%;
+	top:4%;
 	right:1%;
-	width:65px;
+	width:15%;
 }
 }
