@@ -13,7 +13,7 @@
 	display:inline-block;
 	border-left: 1px solid black;
 }
-#menu{
+#menu,#phone{
 	display:none;
 }
 header{
@@ -173,7 +173,8 @@ footer p{
 	
 	#logo{
 	width:50%;
-	margin-left:25%;
+	display:block;
+	margin:auto;
 	}
 	form ul{
 	list-style:none;
@@ -200,6 +201,16 @@ article h1{
 }
 
 #menu{
-	display:inline-block;
+	display:block;
+	position:absolute;
+	top:5%;
+	left:1%;
+}
+#phone{
+	display:block;
+	position:absolute;
+	top:5%;
+	right:1%;
+	width:65px;
 }
 }
