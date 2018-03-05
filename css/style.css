@@ -39,10 +39,20 @@ header li a:hover{
 header #gauche{
 	border-left:none;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 #corps li{
 	display:inline-block;
 	width:25%;
 }
+
+li img {
+    border-radius: 50%;
+}
+
 #corps{
 	text-align:center;
 	padding:0px;
