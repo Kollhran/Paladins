@@ -216,10 +216,6 @@ form .nomVille{
 	float:none;
 }
 
-#header{
-	display:none;
-}
-
 #header.invisible{
 	display:none;
 }
