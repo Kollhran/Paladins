@@ -224,6 +224,14 @@ form .nomVille{
 	display:block;
 }
 
+#header.vueMenu li{
+	display:block;
+	border-left:none;
+}
+
+#header.vueMenu li a{
+	font-size:6vw;
+}
 article h1{
 	font-size:6.5vw;
 }
