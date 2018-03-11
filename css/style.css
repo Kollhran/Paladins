@@ -220,6 +220,14 @@ form .nomVille{
 	display:none;
 }
 
+#header.invisible{
+	display:none;
+}
+
+#header.vueMenu{
+	display:block;
+}
+
 article h1{
 	font-size:6.5vw;
 }
