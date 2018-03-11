@@ -194,20 +194,21 @@ footer p{
 	}
 	
 	#logo{
-	width:50%;
-	display:block;
-	margin:auto;
+		width:50%;
+		display:block;
+		margin:auto;
 	}
 	form ul{
-	list-style:none;
-	display:block;
-	width:100%;
-	padding:0;
-	margin:auto;
+		list-style:none;
+		display:block;
+		width:100%;
+		padding:0;
+		margin:auto;
 	}
-footer p{
-	font-size:3vw;
-}
+
+	footer p{
+		font-size:3vw;
+	}
 form ul li input{
 	width:100%;
 	}
@@ -218,6 +219,7 @@ form .nomVille{
 #header{
 	display:none;
 }
+
 article h1{
 	font-size:6.5vw;
 }
