@@ -81,7 +81,10 @@ article h1{
 	width:50%;
 }
 
-
+#maps iframe{
+	width:100%;
+	height:300px;
+}
 
 #maps{
 	display:inline-block;
